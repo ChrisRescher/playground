@@ -7,7 +7,9 @@ import * as Pull from 'pulljs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'app';
+  // test
   pull = Pull.init({
               instructionsPullToRefresh: 'Pull to Refresh',
               instructionsReleaseToRefresh: 'Loslassen um zu Aktualisieren',
